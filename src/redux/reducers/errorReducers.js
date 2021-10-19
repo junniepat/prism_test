@@ -1,4 +1,4 @@
-import  { ERROR_CATCH } from "../types/errorTypes";
+import { ERROR_CATCH } from "../types/errorTypes";
 
 const initialState = { errors: null };
 

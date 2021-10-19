@@ -1,1 +1,2 @@
 export const INIT_DOG_BREED = "INIT_DOG_BREED"
+export const DOG_BREED_IMAGES = "DOG_BREED_IMAGES"
