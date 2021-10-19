@@ -1,0 +1,1 @@
+export const ERROR_CATCH = "ERROR_CATCH"

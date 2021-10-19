@@ -1,0 +1,59 @@
+
+.dogItems {
+  border: 2px solid #f2f2f2;
+  text-align: center;
+  font-size: medium;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.dogItems:hover {
+  background-color: #eec2ff3d;
+  border: 2px solid #520072;
+  color: #520072;
+  transition: .3s;
+}
+
+
+.dogItems:hover:before {
+  transition: 0.1s transform linear, 0.1s height linear 0.1s;
+  transform: translateX(0);
+  height: 100%;
+  border-color: #1fbfac;
+}
+.dogItems:hover:after {
+  transition: 0.1s transform linear 0.2s, 0.1s height linear 0.3s;
+  transform: translateX(0);
+  height: 100%;
+  border-color: #1fbfac;
+}
+
+
+.dogImages {
+  width: 100%; 
+  height: 100px; 
+  object-fit: cover
+}
+
+
+.dogImagesContainer figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
